@@ -13,6 +13,8 @@ tags:
 ## Research Foundation (研究基础)
 - [[...]] -- Research Workflow (研究工作流：想法→假设→测试→迭代)
 - [[...]] -- Data Sources and Data Quality (数据来源与数据质量)
+- [[L2 Market Data Storage Strategy]] -- L2行情数据存储策略（ClickHouse + Parquet）
+- [[Parquet File Format]] -- Parquet文件格式（L2数据的存储格式）
 - [[...]] -- Feature Engineering (特征工程)
 - [[...]] -- Signal vs Noise (信号与噪声)
 
@@ -62,7 +64,8 @@ tags:
 - [[...]] -- Transaction Cost Analysis TCA (交易成本分析)
 
 ## Cross-Domain Connections
-<!-- 量化↔数学、量化↔Python 的桥接笔记-->
+- [[L2 Market Data Storage Strategy]] (量化↔SQL/Python) -- 数据库选型和Parquet存储方案
+- [[MongoDB vs MySQL vs ClickHouse]] (量化↔SQL) -- L2数据为什么选ClickHouse
 
 ## See Also
 - [[MOC-Home]] -- 返回主索引

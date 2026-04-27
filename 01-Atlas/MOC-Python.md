@@ -35,6 +35,10 @@ tags:
 - [[...]] -- Pandas Rolling and Expanding Windows (滚动与扩展窗口)
 - [[...]] -- Pandas Performance Tips (性能优化：向量化、避免循环)
 
+## Data Formats (数据格式)
+- [[Parquet File Format]] -- Parquet 列式文件格式的原理和优势
+- [[Processing Parquet with Python]] -- Python 读写和处理 Parquet 文件的完整方法
+
 ## Visualization (可视化)
 - [[...]] -- Matplotlib Fundamentals (Matplotlib 基础)
 - [[...]] -- Seaborn for Statistical Plots (Seaborn 统计图表)
@@ -47,7 +51,8 @@ tags:
 - [[...]] -- Backtesting Frameworks (回测框架：backtrader, zipline, vectorbt)
 
 ## Cross-Domain Connections
-<!-- Python↔数学、Python↔量化的桥接笔记-->
+- [[Processing Parquet with Python]] (Python↔量化) -- 用Python处理L2逐笔Parquet数据
+- [[L2 Market Data Storage Strategy]] (Python↔量化) -- Parquet存储策略服务于量化研究
 
 ## See Also
 - [[MOC-Home]] -- 返回主索引

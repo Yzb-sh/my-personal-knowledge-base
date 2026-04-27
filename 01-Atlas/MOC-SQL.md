@@ -10,6 +10,13 @@ tags:
 
 量化数据查询相关的 SQL 知识体系。
 
+## Database Fundamentals (数据库基础)
+- [[Row Storage vs Column Storage]] -- 行存储与列存储的原理和适用场景
+- [[OLTP vs OLAP]] -- 在线事务处理 vs 在线分析处理
+- [[Database Partitioning]] -- 分区与分片的原理和策略
+- [[Time-Series Database]] -- 时序数据库的概念和选型
+- [[MongoDB vs MySQL vs ClickHouse]] -- 三种数据库的全面对比
+
 ## Fundamentals (基础)
 - [[...]] -- SELECT, WHERE, ORDER BY
 - [[...]] -- Aggregation GROUP BY HAVING (聚合：GROUP BY, HAVING)
@@ -29,12 +36,14 @@ tags:
 - [[...]] -- Indexing Strategies (索引策略)
 
 ## Quantitative Data Patterns (量化数据模式)
+- [[L2 Market Data Storage Strategy]] -- L2行情数据的存储架构设计
 - [[...]] -- OHLCV Bar Construction (K线数据构建)
 - [[...]] -- Time-Series Analytics Patterns (时序分析模式)
 - [[...]] -- Cross-Sectional Factor Queries (截面因子查询)
 
 ## Cross-Domain Connections
-<!-- SQL↔Python、SQL↔量化的桥接笔记-->
+- [[L2 Market Data Storage Strategy]] (SQL↔量化) -- 数据库选型服务于量化数据存储
+- [[Parquet File Format]] (SQL↔Python) -- 列存储在文件层面的实现
 
 ## See Also
 - [[MOC-Home]] -- 返回主索引

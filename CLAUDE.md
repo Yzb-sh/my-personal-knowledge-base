@@ -15,16 +15,17 @@ This is a Zettelkasten-style personal growth-oriented knowledge base for quantit
 - `10-System/` -- Scripts, config, system-level files
 
 ## File Conventions
-- **Filenames**: `YYYYMMDDHHmm - Descriptive Title.md` for permanent notes
+- **Filenames**: `Descriptive Title.md` for permanent notes (no timestamp prefix; use descriptive, unique titles)
 - **Source notes**: `YYYY-MM-DD - Author - Title.md`
 - **Daily notes**: `YYYY-MM-DD.md`
 - **Encoding**: UTF-8
 - **Links**: Use `[[wikilinks]]`, not markdown links
 - **No special characters** in filenames (Windows compatibility)
+- **Timestamps** live in frontmatter `id` and `created`/`updated` fields, not in filenames
 
 ## Frontmatter Rules
 Every note must include YAML frontmatter with:
-- `id`: unique identifier (timestamp for zettel, src-date for source, moc-date for structure)
+- `id`: unique identifier (timestamp, e.g. `202604271500` for zettel, `src-YYYYMMDD` for source, `moc-YYYYMMDD` for structure)
 - `title`: note title
 - `created` / `updated`: ISO date
 - `tags`: array with exactly one `#type/` tag, and for permanent notes one `#domain/` and one `#mastery/` tag
