@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v \"^D:\\\\\\\\YZB\\\\\\\\Projects\\\\\\\\my-personal-knowledge-base$\")",
+      "Bash(git --version)",
+      "Read(//c/Users/yzb/AppData/Local/**)",
+      "Read(//c/Users/yzb/AppData/Roaming/**)",
+      "Bash(pip list *)",
+      "Bash(conda list *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+# Obsidian workspace (device-specific)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Python cache
+10-System/scripts/__pycache__/
+10-System/scripts/*.pyc
+10-System/scripts/chroma_data/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
