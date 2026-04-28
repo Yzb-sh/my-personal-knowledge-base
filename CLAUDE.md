@@ -66,3 +66,13 @@ Every note must include YAML frontmatter with:
 - Cross-domain bridge notes (notes connecting math↔python, math↔quant, python↔quant) are especially valuable
 - Application examples in permanent notes should be quantitative-research-specific
 - When suggesting topics to study, reference the dependency order in the MOCs
+
+## Teaching Agent
+- `/drill` — Router that detects intent and directs to the appropriate instructor
+- `/drill-code` — 量化编程教官（Socratic code instruction: never gives code answers, only guides through questions）
+- `/drill-math` — 量化数学教官（Socratic math instruction: never gives formulas/proofs, only guides through reasoning）
+- Both check the knowledge base before teaching to identify existing knowledge and gaps
+- Both create/update Zettel notes after each teaching session, using the user's own words
+- `/drill-code` session types: code challenge, code review, research topic, knowledge review
+- `/drill-math` session types: concept challenge, derivation review, research topic, knowledge review
+- Both reference MOC dependency chains (MOC-Python / MOC-Mathematics) to determine teaching order

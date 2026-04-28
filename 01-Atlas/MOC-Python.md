@@ -27,7 +27,7 @@ tags:
 - [[...]] -- NumPy Random Number Generation (随机数生成)
 
 ## Pandas (数据分析)
-- [[...]] -- Pandas Series and DataFrame (Series 与 DataFrame)
+- [[Pandas Series and DataFrame]] -- Pandas Series 与 DataFrame：核心数据结构与基础操作
 - [[...]] -- Pandas Indexing loc iloc (索引：loc, iloc, at)
 - [[...]] -- Pandas GroupBy Operations (分组操作)
 - [[...]] -- Pandas Merge Join Concat (合并：Merge, Join, Concat)

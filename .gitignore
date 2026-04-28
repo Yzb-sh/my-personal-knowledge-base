@@ -1,6 +1,5 @@
-# Obsidian workspace (device-specific)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
+# Obsidian config (device-specific)
+.obsidian/
 
 # Python cache
 10-System/scripts/__pycache__/
@@ -15,3 +14,13 @@ desktop.ini
 # Temporary files
 *.tmp
 *.bak
+
+# Personal drafts (not for repo)
+我的想法1.0.txt
+元宝建议1.0.txt
+
+# Temporary directory
+临时/
+
+# Junk files
+....md
