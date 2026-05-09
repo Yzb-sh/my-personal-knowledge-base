@@ -2,7 +2,7 @@
 id: "202604281530"
 title: "Pandas Series and DataFrame"
 created: "2026-04-28T15:30"
-updated: "2026-04-28T15:30"
+updated: "2026-05-09T15:00"
 tags:
   - type/zettel
   - domain/python
@@ -29,6 +29,10 @@ DataFrame 和 Series 是所有 Pandas 操作的基础。量化研究中，股票
 - `df.std()` — 对 DataFrame 返回每列标准差（Series）
 - `series.idxmax()` — 返回最大值对应的索引
 - `series.max()` — 返回最大值本身
+- `.iloc[i]` — 按位置索引，永远取第 i 个元素，不管 index label 是什么
+- `.loc[i]` — 按 label 索引，找 index==i 的行
+- `s[i]` — 行为模糊，先尝试 label 索引，找不到时退回位置索引，不推荐使用
+- 过滤后的 DataFrame/Series index 不连续，用 `[0]` 可能找不到 label 0 → 用 `.iloc[0]`
 
 ## Application Example
 从股票日线数据计算日收益率并找出波动最大的股票：
@@ -42,6 +46,9 @@ max_code = df.pct_change().fillna(0).std().idxmax()
 - `.T` 是属性不是方法，写成 `.T()` 会报错
 - `pct_change()` 默认 axis=0，是在**每列内部**逐行计算变化率，不是跨列操作
 - `idxmax()` 对 Series 调用时返回行标签，对 DataFrame 调用时默认返回每列最大值所在的行索引
+- `df[0]` 是按列名查找（找叫 `0` 的列），不是取第一行 → 取第一行的某列用 `df['col'].iloc[0]`
+- 过滤 DataFrame 后 index 保留原值（如 [0, 3, 7]），此时 `.loc[0]` 找 label 0 能找到，但 `.loc[2]` 会 KeyError（label 2 已被过滤掉）
+- `s[i]` 对 Series 先当 label 找，找不到时退回 position → 行为不可预测，始终优先用 `.iloc[i]` 或 `.loc[i]` 明确意图
 
 ## Connections
 - [[MOC-Python]] -- 属于 Pandas 数据分析板块

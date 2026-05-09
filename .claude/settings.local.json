@@ -40,7 +40,9 @@
       "Bash(mkdir -p \"C:/Users/yzb/.qclaw/workspace/projects/personal-knowledge-base\")",
       "Bash(uvicorn --version)",
       "Bash(xargs grep *)",
-      "Bash(grep -E \"\\\\\\\\.json$\")"
+      "Bash(grep -E \"\\\\\\\\.json$\")",
+      "Bash(python3 *)",
+      "Bash(Select-String -Pattern \"元宝|想法\")"
     ]
   }
 }

@@ -2,7 +2,7 @@
 id: "moc-20260427-python"
 title: "MOC-Python"
 created: "2026-04-27"
-updated: "2026-04-27"
+updated: "2026-05-09"
 tags:
   - type/structure
 ---
@@ -29,10 +29,10 @@ tags:
 ## Pandas (数据分析)
 - [[Pandas Series and DataFrame]] -- Pandas Series 与 DataFrame：核心数据结构与基础操作
 - [[...]] -- Pandas Indexing loc iloc (索引：loc, iloc, at)
-- [[...]] -- Pandas GroupBy Operations (分组操作)
+- [[Pandas GroupBy Transform and Apply]] -- Pandas GroupBy Operations (分组操作：transform vs apply)
 - [[...]] -- Pandas Merge Join Concat (合并：Merge, Join, Concat)
 - [[...]] -- Pandas Time Series Handling (时间序列处理)
-- [[...]] -- Pandas Rolling and Expanding Windows (滚动与扩展窗口)
+- [[Factor Construction with Rolling Windows]] -- Pandas Rolling and Expanding Windows (滚动与扩展窗口：因子构建的统一模式)
 - [[...]] -- Pandas Performance Tips (性能优化：向量化、避免循环)
 
 ## Data Formats (数据格式)
@@ -53,6 +53,8 @@ tags:
 ## Cross-Domain Connections
 - [[Processing Parquet with Python]] (Python↔量化) -- 用Python处理L2逐笔Parquet数据
 - [[L2 Market Data Storage Strategy]] (Python↔量化) -- Parquet存储策略服务于量化研究
+- [[IC Decay and Half-Life Estimation]] (Python↔量化) -- np.polyfit线性拟合实现半衰期估算
+- [[Quantile Portfolio Testing]] (Python↔量化) -- pd.qcut分位数分组、unstack宽格式转换、cumprod累计净值
 
 ## See Also
 - [[MOC-Home]] -- 返回主索引

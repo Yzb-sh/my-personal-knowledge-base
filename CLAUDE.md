@@ -68,11 +68,14 @@ Every note must include YAML frontmatter with:
 - When suggesting topics to study, reference the dependency order in the MOCs
 
 ## Teaching Agent
-- `/drill` — Router that detects intent and directs to the appropriate instructor
+- `/drill` — 路由器：检测学习意图，分发到纯编程/纯数学/跨域统一教学
 - `/drill-code` — 量化编程教官（Socratic code instruction: never gives code answers, only guides through questions）
 - `/drill-math` — 量化数学教官（Socratic math instruction: never gives formulas/proofs, only guides through reasoning）
+- `/review` — 间隔复习智能体（基于 mastery 级别和 updated 日期调度复习，苏格拉底式提问巩固记忆，支持域过滤）
+- `/kb-sync` — 知识库同步智能体（会话后调用，提取知识点、创建/更新笔记、更新 MOC）
+- 教官专注教学，不负责笔记管理；会话结束后提示用户运行 `/kb-sync` 和 `/review`
+- 跨域主题（强化学习、深度学习等）由路由器自动识别并生成统一教学计划（Phase 1 数学 + Phase 2 编程）
 - Both check the knowledge base before teaching to identify existing knowledge and gaps
-- Both create/update Zettel notes after each teaching session, using the user's own words
 - `/drill-code` session types: code challenge, code review, research topic, knowledge review
 - `/drill-math` session types: concept challenge, derivation review, research topic, knowledge review
 - Both reference MOC dependency chains (MOC-Python / MOC-Mathematics) to determine teaching order

@@ -2,7 +2,7 @@
 id: "moc-20260427-quant"
 title: "MOC-Quantitative-Strategy"
 created: "2026-04-27"
-updated: "2026-04-27"
+updated: "2026-05-09"
 tags:
   - type/structure
 ---
@@ -21,8 +21,11 @@ tags:
 ## Factor Models (因子模型)
 - [[...]] -- Single-Factor Models CAPM Beta (单因子模型：CAPM, Beta)
 - [[...]] -- Fama-French Multi-Factor Models (Fama-French 多因子模型)
-- [[...]] -- Factor Construction (因子构建：value, momentum, quality, low-vol)
-- [[...]] -- Factor Testing IC IR Turnover (因子测试：IC, IR, 换手率)
+- [[Factor Construction with Rolling Windows]] -- Factor Construction (因子构建：动量、波动率、成交金额、Amihud、反转)
+- [[IC Analysis and Significance Testing]] -- Factor Testing IC IR Turnover (因子测试：截面IC计算、Rank IC、显著性检验、Newey-West修正)
+- [[IC Decay and Half-Life Estimation]] -- Factor Decay and Half-Life (因子衰减：IC衰减曲线、指数衰减拟合、半衰期估算、持仓周期决策)
+- [[Quantile Portfolio Testing]] -- Factor Quantile Portfolio Test (分位数组合测试：pd.qcut分组、unstack宽格式、多空价差、单调性检验、cumprod净值、年化Sharpe)
+- [[Turnover Analysis and Transaction Costs]] -- Turnover and Transaction Cost Analysis (换手率分析：成员集合变化、apply(axis=1)逐行运算、交易成本建模、净Sharpe评估、IC衰减与换手率关系)
 - [[...]] -- Factor Combination and Selection (因子组合与选择)
 - [[...]] -- Cross-Sectional vs Time-Series Factors (截面因子 vs 时序因子)
 
