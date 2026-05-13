@@ -1,6 +1,3 @@
-# Obsidian config (device-specific)
-.obsidian/
-
 # Python cache
 10-System/scripts/__pycache__/
 10-System/scripts/*.pyc

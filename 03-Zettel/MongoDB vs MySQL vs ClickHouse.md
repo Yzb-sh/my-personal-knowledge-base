@@ -2,7 +2,7 @@
 id: "202604271540"
 title: "MongoDB vs MySQL vs ClickHouse"
 created: "2026-04-27T15:40"
-updated: "2026-04-27T15:40"
+updated: "2026-05-12T22:00"
 tags:
   - type/zettel
   - domain/sql

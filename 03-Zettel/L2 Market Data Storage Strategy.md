@@ -2,11 +2,11 @@
 id: "202604271550"
 title: "L2 Market Data Storage Strategy"
 created: "2026-04-27T15:50"
-updated: "2026-04-27T15:50"
+updated: "2026-05-12T22:00"
 tags:
   - type/zettel
   - domain/quant
-  - mastery/1-introduced
+  - mastery/2-familiar
 aliases: []
 ---
 # L2 Market Data Storage Strategy

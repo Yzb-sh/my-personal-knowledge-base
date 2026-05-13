@@ -2,7 +2,7 @@
 id: "202604271600"
 title: "Parquet File Format"
 created: "2026-04-27T16:00"
-updated: "2026-04-27T16:00"
+updated: "2026-05-12T22:00"
 tags:
   - type/zettel
   - domain/python

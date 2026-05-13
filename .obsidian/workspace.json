@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "0adfe916023f4bca",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9a2391ce11b7a5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84ae265d781580d6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aaa3a57c53b8cc38",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c24f41c6ee6df08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06a21de42401006d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7fb5aed2f6aa6948",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "3214673c802e7557",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "08d61fb2c404fc0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef2419689998acf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0baf684d7afd9de4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "a995092a293a873d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "851ef50bedf4bd0d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "257755dba58bdd30",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "372e52cab0590c39",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "2275fb35515c5dd0",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
+          },
+          {
+            "id": "d35c6f9d89bd9a6c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "84ae265d781580d6",
+  "lastOpenFiles": [
+    "临时/尚宸/运行输出结果1.png",
+    "临时/尚宸/运行输出结果1.png.Vggeid",
+    "临时/尚宸/副本3/__pycache__/market_data.cpython-310.pyc",
+    "临时/尚宸/副本3/__pycache__",
+    "临时/尚宸/副本3/requirements.txt",
+    "临时/尚宸/副本3/运行结果截图.png",
+    "临时/尚宸/副本3/cross_check.py",
+    "临时/尚宸/副本3/market_data.py",
+    "临时/尚宸/副本3/README.md",
+    "临时/尚宸/副本3/data/510300_qfq_cache.csv",
+    "临时/尚宸/副本3/data",
+    "临时/尚宸/副本3/AI_log.md",
+    "临时/尚宸/副本3",
+    "临时/尚宸/新建文件夹",
+    "临时/尚宸/副本2/运行结果截图.png",
+    "临时/尚宸/副本2/AI_log.md",
+    "临时/尚宸/副本2/README.md",
+    "临时/尚宸/副本1/README.md",
+    "临时/尚宸/副本1/AI_log.md",
+    "临时/尚宸/副本1/运行结果截图.png",
+    "临时/尚宸/运行结果截图.png",
+    "临时/尚宸/sc/README.md",
+    "临时/尚宸/README.md",
+    "临时/尚宸/sc/AI_log.md",
+    "临时/尚宸/AI_log - 副本.md",
+    "临时/尚宸/AI_log.md",
+    "AI_log.md",
+    "临时/尚宸/尚宸笔试题-均线交叉检测工具.md",
+    "临时/尚宸/page_2.png",
+    "临时/尚宸/page_1.png",
+    "05-Daily/2026-05-12.md",
+    "05-Daily/2026-05-09.md",
+    "03-Zettel/OLTP vs OLAP.md",
+    "05-Daily/2026-05-11.md",
+    "04-Project/momentum-factor-research-plan.md",
+    "05-Daily/2026-05-10.md",
+    "03-Zettel/Backtesting with Transaction Costs.md",
+    "03-Zettel/Inverse Volatility Position Sizing.md",
+    "03-Zettel/Factor Combination Methods.md",
+    "03-Zettel/Factor Construction with Rolling Windows.md",
+    "03-Zettel/Maker Taker Order Mechanics.md",
+    "03-Zettel/Turnover Analysis and Transaction Costs.md"
+  ]
+}

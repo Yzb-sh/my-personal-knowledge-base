@@ -2,11 +2,11 @@
 id: 202605011400
 title: Volume vs Quote Volume
 created: 2026-05-01T14:00
-updated: 2026-05-01T14:00
+updated: "2026-05-12T22:00"
 tags:
   - type/zettel
   - domain/quant
-  - mastery/1-introduced
+  - mastery/2-familiar
 aliases: []
 ---
 # Volume vs Quote Volume

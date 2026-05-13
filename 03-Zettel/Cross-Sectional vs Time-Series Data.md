@@ -2,11 +2,11 @@
 id: 202605011402
 title: Cross-Sectional vs Time-Series Data
 created: 2026-05-01T14:02
-updated: 2026-05-01T14:02
+updated: "2026-05-11T20:00"
 tags:
   - type/zettel
   - domain/quant
-  - mastery/2-familiar
+  - mastery/3-proficient
 aliases: []
 ---
 # Cross-Sectional vs Time-Series Data

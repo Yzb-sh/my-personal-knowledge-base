@@ -42,7 +42,23 @@
       "Bash(xargs grep *)",
       "Bash(grep -E \"\\\\\\\\.json$\")",
       "Bash(python3 *)",
-      "Bash(Select-String -Pattern \"元宝|想法\")"
+      "Bash(Select-String -Pattern \"元宝|想法\")",
+      "Bash(dir \"D:\\\\YZB\\\\Projects\\\\crypto-quant-fund\\\\notebooks\\\\factor_research\")",
+      "PowerShell(Get-ChildItem *)",
+      "Bash(del *)",
+      "Bash(grep -E \"\\\\.\\(md\\)$\")",
+      "Bash(Copy-Item *)",
+      "PowerShell(Copy-Item *)",
+      "Bash(grep -E \"\\\\.\\(md|txt|doc\\)$\")",
+      "Bash(dir D:\\\\YZB\\\\Projects\\\\my-personal-knowledge-base\\\\临时\\\\尚宸 *)",
+      "PowerShell($env:HTTP_PROXY=\"\"; $env:HTTPS_PROXY=\"\"; $env:ALL_PROXY=\"\"; python -u -c \"import sys; sys.stdout.reconfigure\\(encoding='utf-8'\\); exec\\(open\\('临时/尚宸/ma_cross_detector.py', encoding='utf-8'\\).read\\(\\)\\)\")",
+      "PowerShell(Write-Host \"HTTP_PROXY: $env:HTTP_PROXY\"; Write-Host \"HTTPS_PROXY: $env:HTTPS_PROXY\"; Write-Host \"ALL_PROXY: $env:ALL_PROXY\")",
+      "Bash(unset HTTP_PROXY HTTPS_PROXY ALL_PROXY)",
+      "Bash(export HTTP_PROXY=\"\" HTTPS_PROXY=\"\" ALL_PROXY=\"\")",
+      "Bash(pip show *)",
+      "Bash(powershell *)",
+      "Bash(nslookup push2his.eastmoney.com)",
+      "Bash(Select-Object -First 10)"
     ]
   }
 }

@@ -2,7 +2,7 @@
 id: "moc-20260427-quant"
 title: "MOC-Quantitative-Strategy"
 created: "2026-04-27"
-updated: "2026-05-09"
+updated: "2026-05-10"
 tags:
   - type/structure
 ---
@@ -26,7 +26,7 @@ tags:
 - [[IC Decay and Half-Life Estimation]] -- Factor Decay and Half-Life (因子衰减：IC衰减曲线、指数衰减拟合、半衰期估算、持仓周期决策)
 - [[Quantile Portfolio Testing]] -- Factor Quantile Portfolio Test (分位数组合测试：pd.qcut分组、unstack宽格式、多空价差、单调性检验、cumprod净值、年化Sharpe)
 - [[Turnover Analysis and Transaction Costs]] -- Turnover and Transaction Cost Analysis (换手率分析：成员集合变化、apply(axis=1)逐行运算、交易成本建模、净Sharpe评估、IC衰减与换手率关系)
-- [[...]] -- Factor Combination and Selection (因子组合与选择)
+- [[Factor Combination Methods]] -- Factor Combination and Selection (因子组合与选择：等权/IC/ICIR加权、前视偏差、定期更新权重)
 - [[...]] -- Cross-Sectional vs Time-Series Factors (截面因子 vs 时序因子)
 
 ## Strategy Development (策略开发)
@@ -38,7 +38,7 @@ tags:
 
 ## Backtesting (回测)
 - [[...]] -- Backtesting Framework Design (回测框架设计)
-- [[...]] -- Performance Metrics Sharpe Sortino MaxDrawdown (绩效指标)
+- [[Backtesting with Transaction Costs]] -- Performance Metrics and Backtesting (绩效指标与回测：cumprod净值、cummax回撤、Sharpe、Calmar、交易成本)
 - [[...]] -- Transaction Cost Modeling (交易成本建模)
 - [[...]] -- Slippage and Market Impact (滑点与市场冲击)
 - [[...]] -- Overfitting Detection (过拟合检测：walk-forward, cross-validation)
@@ -50,7 +50,7 @@ tags:
 - [[...]] -- Value at Risk VaR (风险价值)
 - [[...]] -- Expected Shortfall CVaR (条件风险价值)
 - [[...]] -- Stress Testing (压力测试)
-- [[...]] -- Position Sizing Kelly Fixed Fractional (仓位管理：Kelly、固定比例、波动率目标)
+- [[Inverse Volatility Position Sizing]] -- Position Sizing Inverse Volatility (仓位管理：反波动率加权、多空分配、.loc赋值)
 - [[...]] -- Correlation Regime Detection (相关性体制检测)
 
 ## Portfolio Construction (组合构建)
