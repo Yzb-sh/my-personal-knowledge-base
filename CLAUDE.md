@@ -76,6 +76,7 @@ Every note must include YAML frontmatter with:
 - 教官专注教学，不负责笔记管理；会话结束后提示用户运行 `/kb-sync` 和 `/review`
 - 跨域主题（强化学习、深度学习等）由路由器自动识别并生成统一教学计划（Phase 1 数学 + Phase 2 编程）
 - Both check the knowledge base before teaching to identify existing knowledge and gaps
+- **教学进度恢复**: 教官启动时必须读取 `04-Project/factor-analysis-teaching/teaching-plan.md` 获取当前教学进度，从上次中断处继续
 - `/drill-code` session types: code challenge, code review, research topic, knowledge review
 - `/drill-math` session types: concept challenge, derivation review, research topic, knowledge review
 - Both reference MOC dependency chains (MOC-Python / MOC-Mathematics) to determine teaching order
